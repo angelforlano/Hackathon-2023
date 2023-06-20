@@ -6,8 +6,6 @@ class Database():
     client = None
     
     def __init__(self, name:str, cluster:str, develop = False, logging = True) -> None:
-        
-        # save the mongoDB client as a singleton, to re use on other clases
         if(Database.client == None):
             Database.client = MongoClient("mongodb+srv://superhacker2013:{}@test.5hm29hp.mongodb.net/?retryWrites=true&w=majority".format("TrTjmdTk3lq70KfX", cluster), server_api=ServerApi('1'))
             Database.databases = {}
