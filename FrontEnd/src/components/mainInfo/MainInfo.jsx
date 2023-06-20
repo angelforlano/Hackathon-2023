@@ -5,7 +5,7 @@ import "./MainInfo.css";
 function MainInfo() {
   return (
     <Card className="text-center">
-      <Card.Header className='text-header-main'>CONNECTEM COMERÇOS</Card.Header>
+      <Card.Header className='text-header-main'>- CONNECTEM COMERÇOS - </Card.Header>
       <Card.Body>
         <Card.Title className='text-header-subtitle'>Solucions Sostenibles</Card.Title>
         <Card.Text className='text-header-text'>
