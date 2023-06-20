@@ -1,1 +1,5 @@
-https://www.mongodb.com/docs/drivers/java/sync/current/quick-start/#add-mongodb-as-a-dependency
+# Grupo Dinamita Code
+## Reto 3: Crecimiento económico.
+
+# Integrantes
+* Angel Forlano (angel12345leo@gmail.com)
