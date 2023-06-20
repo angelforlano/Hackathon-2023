@@ -1,0 +1,15 @@
+.text-header-main{
+    color: var(--strong-green);
+    font-size: 48px;
+}
+.text-header-subtitle{
+    color: var(--black--text);
+    font-size: 30px;
+}
+.text-header-text{
+    color: var(--black--text);
+    font-size: 18px;
+}
+.MainImage{
+    width: 24rem;
+}

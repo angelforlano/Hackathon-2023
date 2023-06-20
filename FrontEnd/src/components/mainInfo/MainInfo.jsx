@@ -1,18 +1,18 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import MainImage from '../../assets/images/small-house.png';
+import "./MainInfo.css";
 
 function MainInfo() {
   return (
     <Card className="text-center">
-      <Card.Header>Featured</Card.Header>
+      <Card.Header className='text-header-main'>CONNECTEM COMERÇOS</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
-        <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+        <Card.Title className='text-header-subtitle'>Solucions Sostenibles</Card.Title>
+        <Card.Text className='text-header-text'>
+        Abraçar les possibilitats infinitives de la Barcelona sostenible amb LocalShop
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <img className="MainImage" src={MainImage} alt="image brand"/>
       </Card.Body>
-      <Card.Footer className="text-muted">2 days ago</Card.Footer>
     </Card>
   );
 }
