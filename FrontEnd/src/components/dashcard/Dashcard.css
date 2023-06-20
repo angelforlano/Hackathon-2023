@@ -1,3 +1,6 @@
+.cont-dashcard{
+    padding: 2rem
+}
 .cont-dashcard-text{
     display:flex;
     color: var(--black-text);
@@ -12,6 +15,7 @@
 .cont-indicators{
     display: flex;
     justify-content:space-evenly;
+    padding: 2rem
 }
 .txt-indicator{
     color: var(--black-text);
