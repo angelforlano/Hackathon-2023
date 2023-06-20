@@ -1,8 +1,11 @@
+import Map from "../../components/map/Map"
 
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Map/>
+    </div>
   )
 }
 
