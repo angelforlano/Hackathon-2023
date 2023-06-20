@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
-public class ActivityDocument implements Serializable {
+public class ShopDocument implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -24,7 +24,7 @@ public class ActivityDocument implements Serializable {
     private String activityMainCode;
     @Field(name = "Nom_Principal_Activitat")
     private String activityMainName;
-    @Field(name = "Codi_Sector_Activitat") 
+    @Field(name = "Codi_Sector_Activitat")
     private String activitySectorCode;
     @Field(name = "Nom_Sector_Activitat")
     private String activitySectorName;
@@ -32,7 +32,7 @@ public class ActivityDocument implements Serializable {
     private String activityGroupCode;
     @Field(name = "Nom_Grup_Activitat")
     private String activityGroupName;
-    @Field(name = "Nom_Local")
+    @Field(name = "Nom_Local") //
     private String localName;
     @Field(name = "SN_Oci_Nocturn")
     private boolean nightlife;
