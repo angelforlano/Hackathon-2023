@@ -8,7 +8,6 @@ public interface IShopService {
 
     List<ShopDTO> getActivitySectorById(String id);
     List<ShopDTO> getActivityGroupById(String id);
-    List<ShopDTO> getStreetCodeById(String id);
     List<ShopDTO> getNeighbourhoodCodeById(String id);
     List<ShopDTO> getDistrictById(String id);
 
