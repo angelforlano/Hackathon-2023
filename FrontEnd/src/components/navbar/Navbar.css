@@ -1,0 +1,13 @@
+.contain-nav{
+	width: 90vw;
+    display: flex;
+	justify-content: space-between;
+}
+.img-nav-local{
+	width: 120px;
+	height: 60px;
+}
+.img-nav-hamburger{
+	width: 30px;
+	height: 30px;
+}
