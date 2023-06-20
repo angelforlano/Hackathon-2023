@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.io.Serializable;
 
-@Document
+@Document(collection = "shops")
 @Getter
 @Setter
 @ToString
@@ -24,7 +24,7 @@ public class ActivityDocument implements Serializable {
     private String activityMainCode;
     @Field(name = "Nom_Principal_Activitat")
     private String activityMainName;
-    @Field(name = "Codi_Sector_Activitat")
+    @Field(name = "Codi_Sector_Activitat") 
     private String activitySectorCode;
     @Field(name = "Nom_Sector_Activitat")
     private String activitySectorName;
