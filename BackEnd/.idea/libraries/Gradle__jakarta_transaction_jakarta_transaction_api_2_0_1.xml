@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1">
+  <library name="Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.1/51a520e3fae406abb84e2e1148e6746ce3f80a1a/jakarta.transaction-api-2.0.1.jar!/" />
     </CLASSES>

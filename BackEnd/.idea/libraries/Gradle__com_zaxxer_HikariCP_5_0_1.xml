@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.zaxxer:HikariCP:5.0.1">
+  <library name="Gradle: com.zaxxer:HikariCP:5.0.1" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/a74c7f0a37046846e88d54f7cb6ea6d565c65f9c/HikariCP-5.0.1.jar!/" />
     </CLASSES>

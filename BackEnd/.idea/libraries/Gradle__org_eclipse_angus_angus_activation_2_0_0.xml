@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.eclipse.angus:angus-activation:2.0.0">
+  <library name="Gradle: org.eclipse.angus:angus-activation:2.0.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.0/72369f4e2314d38de2dcbb277141ef0226f73151/angus-activation-2.0.0.jar!/" />
     </CLASSES>

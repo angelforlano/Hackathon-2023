@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.hibernate.validator:hibernate-validator:8.0.0.Final">
+  <library name="Gradle: org.hibernate.validator:hibernate-validator:8.0.0.Final" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/8.0.0.Final/8e0389f22a3a246915a3311877da4168256b95d2/hibernate-validator-8.0.0.Final.jar!/" />
     </CLASSES>

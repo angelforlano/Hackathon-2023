@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.0">
+  <library name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.0/3c3a0cfba09271fab4603224f2c2e21c6ddf6dc4/jackson-datatype-jsr310-2.15.0.jar!/" />
     </CLASSES>

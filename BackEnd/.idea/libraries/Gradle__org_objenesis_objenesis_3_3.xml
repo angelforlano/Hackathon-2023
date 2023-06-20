@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.objenesis:objenesis:3.3">
+  <library name="Gradle: org.objenesis:objenesis:3.3" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar!/" />
     </CLASSES>

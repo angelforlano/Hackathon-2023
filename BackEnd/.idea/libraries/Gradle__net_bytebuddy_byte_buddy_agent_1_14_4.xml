@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: net.bytebuddy:byte-buddy-agent:1.14.4">
+  <library name="Gradle: net.bytebuddy:byte-buddy-agent:1.14.4" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.4/3bf5ac1104554908cc623e40e58a00be37c35f36/byte-buddy-agent-1.14.4.jar!/" />
     </CLASSES>
