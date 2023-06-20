@@ -1,7 +1,9 @@
-
+import NavbarLocal from "../../components/navbar/NavbarLocal"
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <NavbarLocal/>
+    </div>
   )
 }
 
