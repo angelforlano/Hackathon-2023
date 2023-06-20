@@ -13,10 +13,11 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
-public class TiendaDocument implements Serializable {
+public class ActivityDocument implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @Id
     private ObjectId _id;
+  
 }

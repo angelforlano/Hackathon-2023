@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
-public class TiendaDTO implements Serializable {
+public class ActivityDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 }
