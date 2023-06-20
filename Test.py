@@ -15,8 +15,20 @@ def get_all_colls():
             print(col)
             print(df[col].unique())
 
-print(df["Codi_Principal_Activitat"].describe())
-print(df["Codi_Principal_Activitat"].unique())
+list = ["Grup_Activitat"]
+
+_map = {
+
+}
+
+_rows = {
+
+}
+
+#for item in list:
+    #print(df["Codi_Principal_Activitat"].describe())
+    #print(len(df["Codi_{}".format(item)].unique()))
+    #print(len(df["Nom_{}".format(item)].unique()))
 
 """
 with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as file:
@@ -25,6 +37,7 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
     for line in data:
         line_data = line.split(",")
         print(line_data)"""
+        
 
 """
 with open('data/locveevolucio.csv', newline='') as csvfile:
