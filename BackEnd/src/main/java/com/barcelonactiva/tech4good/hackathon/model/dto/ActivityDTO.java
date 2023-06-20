@@ -12,4 +12,10 @@ import java.io.Serializable;
 public class ActivityDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
+    private String localName;
+    private String activitySectorCode;
+    private String activityGroupCode;
+    private String streetCode;
+    private String neighbourhoodCode;
 }
