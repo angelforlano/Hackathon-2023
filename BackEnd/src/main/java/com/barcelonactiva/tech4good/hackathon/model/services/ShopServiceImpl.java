@@ -27,31 +27,31 @@ public class ShopServiceImpl implements IShopService {
 
     @Override
     public List<ShopDTO> getActivitySectorById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findBySectorId(id);
+        List<ShopDocument> shops = tiendaRepository.findByActivitySectorCode(id);
         return convertShopListToDTO(shops);
     }
 
     @Override
     public List<ShopDTO> getActivityGroupById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findByGroupId(id);
+        List<ShopDocument> shops = tiendaRepository.findByActivityGroupCode(id);
         return convertShopListToDTO(shops);
     }
 
     @Override
     public List<ShopDTO> getStreetCodeById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findByStreetId(id);
+        List<ShopDocument> shops = tiendaRepository.findByStreetCode(id);
         return convertShopListToDTO(shops);
     }
 
     @Override
     public List<ShopDTO> getNeighbourhoodCodeById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findByNeighbourhoodId(id);
+        List<ShopDocument> shops = tiendaRepository.findByNeighbourhoodCode(id);
         return convertShopListToDTO(shops);
     }
 
     @Override
     public List<ShopDTO> getDistrictById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findByDistrictId(id);
+        List<ShopDocument> shops = tiendaRepository.findByDistrictCode(id);
         return convertShopListToDTO(shops);
     }
 }
