@@ -1,12 +1,24 @@
-.cont-dashcard{
-    background: var(--light-orange);
-}
 .cont-dashcard-text{
-    color: var(--strong-green);
+    display:flex;
+    color: var(--black-text);
     font-size:2rem;
     font-weight: 700;
 }
 .dashcard{
-    width: 30rem;
+    border: none;
+    width: 90vw;
     height: 30rem;
+}
+.cont-indicators{
+    display: flex;
+    justify-content:space-evenly;
+}
+.txt-indicator{
+    color: var(--black-text);
+    font-size:16px;
+    font-weight: 700;
+}
+.butn-details{
+    color: var(--black-text);
+    background-color: var(--strong-orange);
 }
