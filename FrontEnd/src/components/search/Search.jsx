@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
+import Filter from "../../assets/images/filtro.png";
+import "./Search.css"
 
 const Search = () => {
   //set hooks useState
@@ -34,7 +36,14 @@ const searcher = (e) => {
 
   return (
     <div>
-      <input value={search} onChange={searcher} type="text" placeholder="Search" className="form-control" />
+      <div className="searcher-space">
+        <div className="search">
+          <input value={search} onChange={searcher} type="text" className="form-control searcher" />
+          <img className="filter" src={Filter}/>  
+        </div>
+        <p>Prova amb 'Veterinari'</p>
+      </div>
+
       <Table striped bordered hover>
         <thead>
           <tr>
