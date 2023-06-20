@@ -16,7 +16,7 @@ def get_all_colls():
             print(col)
             print(df[col].unique())
 
-colls = ["Grup_Activitat"]
+colls = ["Sector_Activitat"]
 
 _map = {
 
