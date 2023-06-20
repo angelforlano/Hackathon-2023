@@ -1,0 +1,21 @@
+.searcher-space {
+    padding-bottom: 6vh;
+}
+.search {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter {
+    background-color: #F4F4F4;
+    height: 6vh;
+    border-radius: 12px;
+}
+.searcher {
+    width: 62vw;
+    height: 6vh;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    border: none;
+}
