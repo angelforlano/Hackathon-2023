@@ -13,9 +13,11 @@ public class ShopDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private String activitySectorName;
+    private String activityGroupName;
     private String localName;
-    private String activitySectorCode;
-    private String activityGroupCode;
-    private String streetCode;
-    private String neighbourhoodCode;
+    private String neighbourhoodName;
+    private String districtName;
+
+
 }

@@ -38,12 +38,6 @@ public class ShopServiceImpl implements IShopService {
     }
 
     @Override
-    public List<ShopDTO> getStreetCodeById(String id) {
-        List<ShopDocument> shops = tiendaRepository.findByStreetCode(id);
-        return convertShopListToDTO(shops);
-    }
-
-    @Override
     public List<ShopDTO> getNeighbourhoodCodeById(String id) {
         List<ShopDocument> shops = tiendaRepository.findByNeighbourhoodCode(id);
         return convertShopListToDTO(shops);

@@ -32,14 +32,6 @@ public class ShopController {
         return responseEntity;
     }
 
-    @GetMapping("/ubicacion/codigoPostal/{id}")
-    public ResponseEntity<?> obtenerStreetCode(@PathVariable String id){
-        ResponseEntity<?> responseEntity;
-        List<ShopDTO> listStreetCodeId = shopServiceImpl.getStreetCodeById(id);
-        responseEntity = ResponseEntity.status(HttpStatus.OK).body(listStreetCodeId);
-        return responseEntity;
-    }
-
     @GetMapping("/ubicacion/barrio/{id}")
     public ResponseEntity<?> obtenerNeighbourhoodCode(@PathVariable String id){
         ResponseEntity<?> responseEntity = null;
