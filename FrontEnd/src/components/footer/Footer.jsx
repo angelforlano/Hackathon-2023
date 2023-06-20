@@ -1,9 +1,8 @@
 import React from 'react';
 import './Footer.css'
-import Footer from '../footer';
-import faInstagram from '../../assets/images/faInstagram.png';
-import faFacebook from '../../assets/images/faInstagram.png'; 
-import faPinterest from '../../assets/images/faPinterest.png';
+import Instagram from '../../assets/images/Instagram.svg';
+import Facebook from '../../assets/images/FaceBook.svg'; 
+import Pinterest from '../../assets/images/Pinterest.svg';
 
 function Footer() {
   return (
@@ -15,13 +14,13 @@ function Footer() {
          <li>Privacitat</li>
          <li>Termes i condicions</li>
       </ul>
-      <div className="social-icons">
-         <img className='Inastagram-logo' src={faInstagram} alt='instagram-icon'/>
-         <img className='FaceBook-logo' src={faFacebook} alt='FaceBook-icon'/>
-         <img className='Pinterest-logo' src={faPinterest} alt='Pinterest-icon'/>
+      <div className='social-icons'>
+         <img className='Inastagram-logo' src={Instagram} alt='instagram-icon'/>
+         <img className='FaceBook-logo' src={Facebook} alt='FaceBook-icon'/>
+         <img className='Pinterest-logo' src={Pinterest} alt='Pinterest-icon'/>
       </div>
 
-      <p>Copyright © 2023 LocalShop. All Rights Reserved.</p>
+      <p className='copy-right'>Copyright © 2023 LocalShop. All Rights Reserved.</p>
     </div>
   )
 }
