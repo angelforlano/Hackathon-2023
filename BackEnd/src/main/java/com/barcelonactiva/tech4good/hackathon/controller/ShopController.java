@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173/") //URL frontend
+//@CrossOrigin(origins = "http://localhost:5173/") //URL frontend
 public class ShopController {
 
     @Autowired
