@@ -19,7 +19,7 @@
 }
 .txt-indicator{
     color: var(--black-text);
-    font-size:16px;
+    font-size:0.6rem;
     font-weight: 700;
 }
 .butn-details{
