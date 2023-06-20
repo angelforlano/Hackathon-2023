@@ -15,9 +15,9 @@ function Footer() {
          <li>Termes i condicions</li>
       </ul>
       <div className="social-icons">
-         <img src={'faInstgram'} alt='instagram-icon'/>
-         <img src={'faFaceBook'} alt='FaceBook-icon'/>
-         <img src={'faPinterest'} alt='Pinterest-icon'/>
+         <img className='Inastagram-logo' src={faInstagram} alt='instagram-icon'/>
+         <img className='FaceBook-logo' src={faFacebook} alt='FaceBook-icon'/>
+         <img className='Pinterest-logo' src={faPinterest} alt='Pinterest-icon'/>
       </div>
 
       <p>Copyright © 2023 LocalShop. All Rights Reserved.</p>
