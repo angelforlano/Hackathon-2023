@@ -12,7 +12,6 @@ new_df = df[['Codi_Principal_Activitat', 'Nom_Principal_Activitat', 'Codi_Sector
 
 print(new_df.head())
 print(new_df.describe())
-
 print(new_df.shape)
 
 new_df.to_csv("data_new.csv")
