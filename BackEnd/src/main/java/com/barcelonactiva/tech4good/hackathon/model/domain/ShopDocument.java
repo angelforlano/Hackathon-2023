@@ -35,11 +35,11 @@ public class ShopDocument implements Serializable {
     @Field(name = "Nom_Local")
     private String localName;
     @Field(name = "SN_Oci_Nocturn")
-    private boolean nightlife;
+    private String nightlife;
     @Field(name = "SN_Obert24h")
-    private boolean open24h;
+    private String open24h;
     @Field(name = "SN_Carrer")
-    private boolean street;
+    private String street;
     @Field(name = "Nom_Mercat")
     private String marketName;
     @Field(name = "Nom_Galeria")
