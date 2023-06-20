@@ -1,4 +1,4 @@
-package com.barcelonactiva.tech4good.hackathon.model.document;
+package com.barcelonactiva.tech4good.hackathon.model.domain;
 
 import lombok.Getter;
 import lombok.Setter;
