@@ -16,7 +16,7 @@ def get_all_colls():
             print(col)
             print(df[col].unique())
 
-colls = ["Districte"]
+colls = ["Grup_Activitat"]
 
 _map = {
 
@@ -72,11 +72,16 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
                 pass
                 #break
 
-print(json.dumps(_map))
+#print(json.dumps(_map))
 
 _final_data = {
     "rows" : _rows
 }
+
+# Guardar el objeto JSON en un archivo
+nombre_archivo = "data/datos.json"
+with open(nombre_archivo, "w", encoding="utf-8") as archivo:
+    json.dump(_map, archivo, ensure_ascii=False)
 
 """
 with open('data/locveevolucio.csv', newline='') as csvfile:
