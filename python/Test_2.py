@@ -81,7 +81,7 @@ _final_data = {
 # Guardar el objeto JSON en un archivo
 nombre_archivo = "data/datos.json"
 with open(nombre_archivo, "w", encoding="utf-8") as archivo:
-    json.dump(_final_data, archivo, ensure_ascii=False)
+    json.dump(_rows, archivo, ensure_ascii=False)
 
 """
 with open('data/locveevolucio.csv', newline='') as csvfile:
