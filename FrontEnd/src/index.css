@@ -12,6 +12,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --strong-green: #3A9675;
+  --light-green: #6AC7A6;
+  --light-orange: #FACE5C;
+  --medium-orange: #F6B558;
+  --strong-orange: #F2954E;
+  --black-text: #484E4B;
+  --line-division: #F4F4F4;
+  --background-white: #FBFBFB;
+
 }
 
 a {
@@ -25,6 +35,7 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
