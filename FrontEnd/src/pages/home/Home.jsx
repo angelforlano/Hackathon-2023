@@ -1,5 +1,4 @@
 import Footer from "../../components/footer/Footer"
-import MainInfo from "../../components/mainInfo/MainInfo";
 import NavbarLocal from "../../components/navbar/NavbarLocal"
 import Search from "../../components/search/Search";
 import MainInfo from '../../components/mainInfo/MainInfo';
@@ -7,10 +6,9 @@ import MainInfo from '../../components/mainInfo/MainInfo';
 function Home() {
   return (
     <div>
-      <NavbarLocal/>
+      <NavbarLocal />
       <MainInfo />
       <Search />
-      <Footer/>
     </div>
   )
 }

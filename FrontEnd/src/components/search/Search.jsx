@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Table from 'react-bootstrap/Table';
 import Filter from "../../assets/images/filtro.png";
 import Card from 'react-bootstrap/Card';
 import "./Search.css"

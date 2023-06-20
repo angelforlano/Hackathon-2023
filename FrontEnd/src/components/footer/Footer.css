@@ -1,7 +1,12 @@
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
 .footer-total{
     color: #484E4B;
     background-color: #484E4B;
-    padding: 10px;
     align-items: center; 
     justify-content: center; 
     text-align: center; 
