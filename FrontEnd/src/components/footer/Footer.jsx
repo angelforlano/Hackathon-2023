@@ -1,13 +1,14 @@
 import React from 'react';
+import './Footer.css'
 import Footer from '../footer';
-import faInstagram from '../../assets/images/faInstagram';
+import faInstagram from '../../assets/images/faInstagram.png';
 import faFacebook from '../../assets/images/faInstagram.png'; 
 import faPinterest from '../../assets/images/faPinterest.png';
 
 function Footer() {
   return (
-    <div>
-       <ul>
+    <div className='footer-total'>
+       <ul className='footer-text'>
          <li>Blog</li>
          <li>Nosaltres</li>
          <li>Cookies</li>
