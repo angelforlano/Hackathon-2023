@@ -1,0 +1,28 @@
+.cont-dashcard{
+    padding: 2rem
+}
+.cont-dashcard-text{
+    display:flex;
+    color: var(--black-text);
+    font-size:2rem;
+    font-weight: 700;
+}
+.dashcard{
+    border: none;
+    width: 90vw;
+    height: 30rem;
+}
+.cont-indicators{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2rem
+}
+.txt-indicator{
+    color: var(--black-text);
+    font-size:0.6rem;
+    font-weight: 700;
+}
+.butn-details{
+    color: var(--black-text);
+    background-color: var(--strong-orange);
+}
