@@ -1,0 +1,12 @@
+.cont-dashcard{
+    background: var(--light-orange);
+}
+.cont-dashcard-text{
+    color: var(--strong-green);
+    font-size:2rem;
+    font-weight: 700;
+}
+.dashcard{
+    width: 30rem;
+    height: 30rem;
+}

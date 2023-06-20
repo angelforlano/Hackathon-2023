@@ -1,8 +1,10 @@
-
+import Dashcard from '../../components/dashcard/Dashcard'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Dashcard/>
+    </div>
   )
 }
 
