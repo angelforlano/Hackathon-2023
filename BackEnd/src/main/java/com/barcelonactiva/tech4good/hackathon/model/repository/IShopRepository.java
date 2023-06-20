@@ -8,11 +8,13 @@ import java.util.List;
 
 public interface IShopRepository extends MongoRepository<ShopDocument, ObjectId> {
 
-    List<ShopDocument> findBySectorId(String id);
-    List<ShopDocument> findByGroupId(String id);
-    List<ShopDocument> findByStreetId(String id);
-    List<ShopDocument> findByNeighbourhoodId(String id);
-    List<ShopDocument> findByDistrictId(String id);
+
+    List<ShopDocument> findByActivitySectorCode(String id);
+    List<ShopDocument> findByActivityGroupCode(String id);
+    List<ShopDocument> findByStreetCode(String id);
+    List<ShopDocument> findByNeighbourhoodCode(String id);
+    List<ShopDocument> findByDistrictCode(String id);
 
 
 }
+
