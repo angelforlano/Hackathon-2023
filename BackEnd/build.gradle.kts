@@ -30,6 +30,7 @@ dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation("org.mongodb:mongo-java-driver:3.12.10")
 }
 
 tasks.withType<Test> {

@@ -1,11 +1,12 @@
-import MainInfo from "../../components/mainInfo/MainInfo"
+import Footer from "../../components/footer/Footer"
 import NavbarLocal from "../../components/navbar/NavbarLocal"
-
+import Search from "../../components/search/Search";
 function Home() {
   return (
     <div>
       <NavbarLocal/>
-      <MainInfo/>
+      <Search />
+      <Footer/>
     </div>
   )
 }
