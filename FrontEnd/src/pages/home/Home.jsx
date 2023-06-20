@@ -1,7 +1,10 @@
+import Search from "../../components/search/Search";
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Search />
+    </div>
   )
 }
 
