@@ -94,5 +94,29 @@
     "localName":"SN",
     "neighbourhoodName":"el Carmel",
     "districtName":"Horta-Guinardó"
-}
+  },
+  {
+    "id": 13,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"SN",
+    "neighbourhoodName":"Sant Martí de Provençals",
+    "districtName":"Sant Martí"
+  },
+  { 
+    "id": 15,
+    "activitySectorName":"Sense informació",
+    "activityGroupName":"Grup no definit",
+    "localName":"LA SEXTA BAJA",
+    "neighbourhoodName":"el Parc i la Llacuna del Poblenou",
+    "districtName":"Sant Martí"
+  },
+  { 
+    "id": 16,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"PELL GOMEZ I VARELA",
+    "neighbourhoodName":"el Turó de la Peira",
+    "districtName":"Nou Barris"
+  }
 ]
