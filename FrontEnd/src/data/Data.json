@@ -78,5 +78,21 @@
     "localName": "SN",
     "neighbourhoodName": "Vilapicina i la Torre Llobeta",
     "districtName": "Nou Barris"
-  }
+  },
+  {
+    "id": 11,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"ARGENT BASIC",
+    "neighbourhoodName":"Sants",
+    "districtName":"Sants-Montjuïc"
+  },
+  {
+    "id": 12,
+    "activitySectorName":"Sense informació",
+    "activityGroupName":"Grup no definit",
+    "localName":"SN",
+    "neighbourhoodName":"el Carmel",
+    "districtName":"Horta-Guinardó"
+}
 ]

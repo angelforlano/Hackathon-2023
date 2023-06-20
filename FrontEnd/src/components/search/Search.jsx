@@ -24,7 +24,8 @@ const searcher = (e) => {
 }
 
 //filter method 
- const results = !search ? shops : shops.filter((dato)=> dato.localName.toLowerCase().includes(search.toLocaleLowerCase()))
+ const results = !search ? shops : shops.filter((dato)=> dato.localName.toLowerCase().includes(search.toLocaleLowerCase())
+        );
   
  useEffect( ()=> {
   setShops(dataShops);
@@ -42,17 +43,16 @@ const searcher = (e) => {
         <p>Prova amb 'Veterinari'</p>
       </div>
 
-      <section>
+      <section className="cards">
         {results.map((shop) => (
-        <Card style={{ width: '18rem' }} key={shop.id}>
+        <Card className="card-shop" style={{ width: '18rem' }} key={shop.id}>
           <Card.Body>
             <Card.Title>{shop.localName}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{shop.districtName}</Card.Subtitle>
             <Card.Text>
               {shop.neighbourhoodName}
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#">Contacte del comerç</Card.Link>
           </Card.Body>
         </Card>
         ))}

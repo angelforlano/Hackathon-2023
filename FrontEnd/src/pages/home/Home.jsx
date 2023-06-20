@@ -9,6 +9,7 @@ function Home() {
       <NavbarLocal />
       <MainInfo />
       <Search />
+      <Footer />
     </div>
   )
 }

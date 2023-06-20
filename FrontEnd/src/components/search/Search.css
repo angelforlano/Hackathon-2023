@@ -19,3 +19,16 @@
     border-radius: 20px;
     border: none;
 }
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-shop {
+    margin: 2rem 0rem 2rem 0rem;
+    background-color: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
