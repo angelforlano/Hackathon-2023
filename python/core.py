@@ -34,8 +34,8 @@ if __name__ == "__main__":
             
             i += 1
         
-            if (i == 5):
-                pass
-                #break
+            if (i == 100):
+                #pass
+                break
             
     

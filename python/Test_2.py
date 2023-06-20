@@ -1,6 +1,16 @@
 import pandas
 import json
 
+def convert_str_num(_srt):
+    return _srt
+    if _srt.replace(".", "", 1).isdigit():  # Verificar que solo contenga números y un solo punto decimal
+        numero = float(_srt)
+        #print("La cadena es un número de punto flotante:", numero)
+        return numero
+    else:
+        #print("La cadena no contiene solo números o es un número de punto flotante inválido.")
+        return _srt
+
 file = "data/2019_censcomercialbcn_detall.csv"
 
 df = pandas.read_csv(file)
@@ -16,21 +26,11 @@ def get_all_colls():
             print(col)
             print(df[col].unique())
 
-colls = ['Codi_Principal_Activitat', 'Nom_Principal_Activitat', 'Codi_Sector_Activitat', 'Nom_Sector_Activitat', 'Codi_Grup_Activitat', 'Nom_Grup_Activitat', 'Nom_Local', 'SN_Oci_Nocturn', 'SN_Obert24h', 'SN_Carrer', 'Nom_Mercat', 'Nom_Galeria', 'Nom_CComercial', 'Direccio_Unica', 'Codi_Via', 'Nom_Via', 'Codi_Barri', 'Nom_Barri', 'Codi_Districte', 'Nom_Districte']
-
-_map = {
-
-}
+colls = ['ID_Bcn_2019', 'ID_Bcn_2016', 'Codi_Principal_Activitat', 'Nom_Principal_Activitat', 'Codi_Sector_Activitat', 'Nom_Sector_Activitat', 'Codi_Grup_Activitat', 'Nom_Grup_Activitat', 'Codi_Activitat_2019', 'Nom_Activitat', 'Codi_Activitat_2016', 'Nom_Local', 'SN_Oci_Nocturn', 'SN_Coworking', 'SN_Servei_Degustacio', 'SN_Obert24h', 'SN_Mixtura', 'SN_Carrer', 'SN_Mercat', 'Nom_Mercat', 'SN_Galeria', 'Nom_Galeria', 'SN_CComercial', 'Nom_CComercial', 'SN_Eix', 'Nom_Eix', 'X_UTM_ETRS89', 'Y_UTM_ETRS89', 'Latitud', 'Longitud', 'Direccio_Unica', 'Codi_Via', 'Nom_Via', 'Planta', 'Porta', 'Num_Policia_Inicial', 'Lletra_Inicial', 'Num_Policia_Final', 'Lletra_Final', 'Solar', 'Codi_Parcela', 'Codi_Illa', 'Seccio_Censal', 'Codi_Barri', 'Nom_Barri', 'Codi_Districte', 'Nom_Districte', 'Referencia_cadastral', 'Data_Revisio']
 
 _rows = []
 
 i = 0
-#for item in list:
-    #print(df["Codi_Principal_Activitat"].describe())
-    #print(len(df["Codi_{}".format(item)].unique()))
-    #print(len(df["Nom_{}".format(item)].unique()))
-
-_df_colls_names = ['Codi_Principal_Activitat', 'Nom_Principal_Activitat', 'Codi_Sector_Activitat', 'Nom_Sector_Activitat', 'Codi_Grup_Activitat', 'Nom_Grup_Activitat', 'Nom_Local', 'SN_Oci_Nocturn', 'SN_Obert24h', 'SN_Carrer', 'Nom_Mercat', 'Nom_Galeria', 'Nom_CComercial', 'Direccio_Unica', 'Codi_Via', 'Nom_Via', 'Codi_Barri', 'Nom_Barri', 'Codi_Districte', 'Nom_Districte']
 
 with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as file:
     file.readline()
@@ -40,7 +40,7 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
         line = line.replace('"', "")
         row_data = line.split(",")
         
-        #print(row_data)
+        #rint(row_data)
         
         #print(_row_coi_index)
         #print(_row_nom_index)
@@ -50,10 +50,10 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
         
         _row_obj = {}
         
-        for coll_name in _df_colls_names:
-            _row_obj[coll_name] = row_data[_df_colls_names.index(coll_name)]
+        for coll_name in colls:
+            _row_obj[coll_name] = convert_str_num(row_data[colls.index(coll_name)])
         
-        #print()
+        #print(_row_obj)
         _rows.append(_row_obj)
         
         #_codi_value = row_data[_row_coi_index]
@@ -68,7 +68,7 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
         """
         i += 1
         
-        if (i == 25):
+        if (i == 5):
             pass
             #break
 
@@ -79,7 +79,7 @@ _final_data = {
 }
 
 # Guardar el objeto JSON en un archivo
-nombre_archivo = "data/datos.json"
+nombre_archivo = "data_clean/datos_v2.json"
 with open(nombre_archivo, "w", encoding="utf-8") as archivo:
     json.dump(_rows, archivo, ensure_ascii=False)
 
