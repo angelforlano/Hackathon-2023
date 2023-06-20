@@ -32,7 +32,7 @@ public class ShopDocument implements Serializable {
     private String activityGroupCode;
     @Field(name = "Nom_Grup_Activitat")
     private String activityGroupName;
-    @Field(name = "Nom_Local") //
+    @Field(name = "Nom_Local")
     private String localName;
     @Field(name = "SN_Oci_Nocturn")
     private boolean nightlife;
