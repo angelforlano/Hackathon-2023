@@ -31,6 +31,7 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("org.mongodb:mongo-java-driver:3.12.10")
+	implementation("org.modelmapper:modelmapper:3.1.1")
 }
 
 tasks.withType<Test> {
