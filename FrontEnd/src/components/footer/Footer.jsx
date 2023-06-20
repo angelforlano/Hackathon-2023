@@ -20,7 +20,7 @@ function Footer() {
          <img className='Pinterest-logo' src={Pinterest} alt='Pinterest-icon'/>
       </div>
 
-      <p className='copy-right'>Copyright © 2023 LocalShop. All Rights Reserved.</p>
+      <p className='copy'>Copyright © 2023 LocalShop. All Rights Reserved.</p>
     </div>
   )
 }
