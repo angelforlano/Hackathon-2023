@@ -26,14 +26,4 @@ if __name__ == "__main__":
             _row_obj = {}
         
             for coll_name in _df_colls_names:
-                _row_obj[coll_name] = convert_str_num(row_data[_df_colls_names.index(coll_name)])
-    
-            main_db.insert(_row_obj, into="data")
-            
-            i += 1
-        
-            if (i == 100):
-                #pass
-                break
-            
-    
+                _row_obj[coll_name] = convert_str_num(row_data[_df_colls_names.index(coll_name)])    
