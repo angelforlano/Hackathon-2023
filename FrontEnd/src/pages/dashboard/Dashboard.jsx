@@ -1,10 +1,9 @@
-import Map from "../../components/map/Map"
 
 
 function Dashboard() {
   return (
     <div>
-      <Map/>
+
     </div>
   )
 }
