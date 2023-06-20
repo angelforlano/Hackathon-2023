@@ -16,7 +16,7 @@ def get_all_colls():
             print(col)
             print(df[col].unique())
 
-colls = ["Sector_Activitat"]
+colls = ["Districte"]
 
 _map = {
 
@@ -60,12 +60,15 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
             _codi_value = row_data[_row_coi_index]
             _nom_value = row_data[_row_nom_index]
             
+            if (_nom_value == "Altres" or _nom_value == "Grup no definit"):
+                _codi_value = "0"
+            
             if not(_codi_value in _map):
                 _map[_codi_value] = _nom_value
             
             i += 1
             
-            if (i == 1):
+            if (i == 25):
                 pass
                 #break
 

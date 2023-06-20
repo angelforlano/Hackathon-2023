@@ -1,6 +1,6 @@
-package controller;
+package com.barcelonactiva.tech4good.hackathon.controller;
 
-import com.barcelonactiva.tech4good.hackathon.model.services.ActivityServiceImpl;
+import com.barcelonactiva.tech4good.hackathon.model.services.ShopServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TiendaController {
+public class ShopController {
 
     @Autowired
-    ActivityServiceImpl tiendaServiceImpl;
+    ShopServiceImpl tiendaServiceImpl;
     @GetMapping("/sector/{id}")
     public ResponseEntity<?> obtenerActivitySectorCode(@PathVariable String id){
         ResponseEntity<?> responseEntity = null;
