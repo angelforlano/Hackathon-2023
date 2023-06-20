@@ -1,8 +1,8 @@
 import axios from "axios";
 
-//const baseUrl = 
+const URL = "https://jsonplaceholder.typicode.com"
 
-//export const getSector = () => {
+export const getDatas = () => {
 
-//    return axios.get(baseUrl + "/escape");
- 
+    return axios.get(URL + "/users");
+};
