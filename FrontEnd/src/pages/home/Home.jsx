@@ -6,10 +6,10 @@ import MainInfo from '../../components/mainInfo/MainInfo';
 function Home() {
   return (
     <div>
-      <NavbarLocal/>
-      <MainInfo/>
+      <NavbarLocal />
+      <MainInfo />
       <Search />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

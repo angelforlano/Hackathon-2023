@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "les Tres Torres",
+    "districtName": "Sarrià-Sant Gervasi"
+  },
+  {
+    "id": 2,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "ABC RESTAURACION DE PAVIMENTOS",
+    "neighbourhoodName": "les Roquetes",
+    "districtName": "Nou Barris"
+  },
+  {
+    "id": 3,
+    "activitySectorName": "Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName": "Grup no definit",
+    "localName": "BODEGA ESTADELLA",
+    "neighbourhoodName": "el Bon Pastor",
+    "districtName": "Sant Andreu"
+  },
+  {
+    "id": 4,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "les Tres Torres",
+    "districtName": "Sarrià-Sant Gervasi"
+  },
+  {
+    "id": 5,
+    "activitySectorName": "Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName": "Grup no definit",
+    "localName": "MOBILE GEN & COMPUTING",
+    "neighbourhoodName": "Sant Andreu",
+    "districtName": "Sant Andreu"
+  },
+  {
+    "id": 6,
+    "activitySectorName": "Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "la Sagrada Família",
+    "districtName": "Eixample"
+  },
+  {
+    "id": 7,
+    "activitySectorName": "Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName": "Grup no definit",
+    "localName": "RIA LOCUTORI",
+    "neighbourhoodName": "Vilapicina i la Torre Llobeta",
+    "districtName": "Nou Barris"
+  },
+  {
+    "id": 8,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "Sant Gervasi - la Bonanova",
+    "districtName": "Sarrià-Sant Gervasi"
+  },
+  {
+    "id": 9,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "Vilapicina i la Torre Llobeta",
+    "districtName": "Nou Barris"
+  },
+  {
+    "id": 10,
+    "activitySectorName": "Sense informació",
+    "activityGroupName": "Grup no definit",
+    "localName": "SN",
+    "neighbourhoodName": "Vilapicina i la Torre Llobeta",
+    "districtName": "Nou Barris"
+  },
+  {
+    "id": 11,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"ARGENT BASIC",
+    "neighbourhoodName":"Sants",
+    "districtName":"Sants-Montjuïc"
+  },
+  {
+    "id": 12,
+    "activitySectorName":"Sense informació",
+    "activityGroupName":"Grup no definit",
+    "localName":"SN",
+    "neighbourhoodName":"el Carmel",
+    "districtName":"Horta-Guinardó"
+  },
+  {
+    "id": 13,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"SN",
+    "neighbourhoodName":"Sant Martí de Provençals",
+    "districtName":"Sant Martí"
+  },
+  { 
+    "id": 15,
+    "activitySectorName":"Sense informació",
+    "activityGroupName":"Grup no definit",
+    "localName":"LA SEXTA BAJA",
+    "neighbourhoodName":"el Parc i la Llacuna del Poblenou",
+    "districtName":"Sant Martí"
+  },
+  { 
+    "id": 16,
+    "activitySectorName":"Sense informació - Havia tingut activitat (rètol)",
+    "activityGroupName":"Grup no definit",
+    "localName":"PELL GOMEZ I VARELA",
+    "neighbourhoodName":"el Turó de la Peira",
+    "districtName":"Nou Barris"
+  }
+]

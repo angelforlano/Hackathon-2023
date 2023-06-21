@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
-import Table from 'react-bootstrap/Table';
+import Filter from "../../assets/images/filtro.png";
+import Card from 'react-bootstrap/Card';
+import dataShops from '../../data/Data.json';
+import "./Search.css"
+{/*import { getDatas } from "../../services/commerce.service";*/}
 
 const Search = () => {
   //set hooks useState
   const [shops, setShops] = useState([]);
   const [search, setSearch] = useState("");
 
-  //function to get API
-  const URL = "https://jsonplaceholder.typicode.com/users";
-
-  const showData = async () => {
-    const response = await fetch(URL);
-    const data = await response.json();
+{/*  const showData = async () => {
+    const {data} = await getDatas();
     console.log(data);
     setShops(data)
-  };
+  };*/}
   
   
 //search function
@@ -24,33 +24,39 @@ const searcher = (e) => {
 }
 
 //filter method 
- const results = !search ? shops : shops.filter((dato)=> dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
+ const results = !search ? shops : shops.filter((dato)=> dato.localName.toLowerCase().includes(search.toLocaleLowerCase())
+        );
   
  useEffect( ()=> {
-  showData()
-}, [])
+  setShops(dataShops);
+}, []);
 
   //view render
 
   return (
     <div>
-      <input value={search} onChange={searcher} type="text" placeholder="Search" className="form-control" />
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>NAME</th>
-            <th>USER NAME</th>
-          </tr>
-        </thead>
-        <tbody>
-          {results.map((shop) => (
-            <tr key={shop.id}>
-              <td>{shop.name}</td>
-              <td>{shop.username}</td>
-            </tr>
-          ))}
-        </tbody>
-      </Table>
+      <div className="searcher-space">
+        <div className="search">
+          <input value={search} onChange={searcher} type="text" className="form-control searcher" />
+          <img className="filter" src={Filter}/>  
+        </div>
+        <p>Prova amb 'Veterinari'</p>
+      </div>
+
+      <section className="cards">
+        {results.map((shop) => (
+        <Card className="card-shop" style={{ width: '18rem' }} key={shop.id}>
+          <Card.Body>
+            <Card.Title>{shop.localName}</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">{shop.districtName}</Card.Subtitle>
+            <Card.Text>
+              {shop.neighbourhoodName}
+            </Card.Text>
+            <Card.Link href="#">Contacte del comerç</Card.Link>
+          </Card.Body>
+        </Card>
+        ))}
+      </section>
     </div>
   );
 };
