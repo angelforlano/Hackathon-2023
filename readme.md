@@ -8,5 +8,6 @@ The project involves working with data related to commercial activities in Barce
 * Angel Forlano (angel12345leo@gmail.com) (https://www.linkedin.com/in/angel-forlano/)
 * Shima Naderi (shima.naderii@gmail.com) (https://www.linkedin.com/in/shima-naderi/)
 * Alejandra Morales Cuitiño (https://www.linkedin.com/in/alemcuitino/)
+* Alejandro Fernández Vidal (https://www.linkedin.com/in/alejandrofernandezvidal/)
 * Gabriela Barajas Moreno (https://www.linkedin.com/in/gabrielabarajas/)
-* Mari Carmen Chueco Oviedo (https://www.linkedin.com/in/maricarmenchueco/
+* Mari Carmen Chueco Oviedo (https://www.linkedin.com/in/maricarmenchueco/)
