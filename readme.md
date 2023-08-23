@@ -1,8 +1,29 @@
-# Grupo Dinamita Code
+# Dinamite Code Group
 ## Reto 3: Crecimiento económico.
 
-## Introduction:
+## **Project Introduction**: Tech4Good for Sustainability in Barcelona
+
+Our project is a tech-driven initiative with a focus on sustainability, designed to empower local businesses and promote conscious consumerism within the vibrant city of Barcelona. Our primary goal is to encourage the "go local, shop local" ethos by leveraging cutting-edge technology to connect consumers with local businesses. This way, we aim to foster sustainable growth while contributing to the city's economic and environmental well-being.
 The project involves working with data related to commercial activities in Barcelona using Python. Our team participated in a hackathon and developed a Python script to process and analyze the data. The goal was to extract meaningful insights from the data and organize it for further analysis.
+
+**Key Objectives**:
+
+**Empowering Local Businesses**: We're dedicated to creating a platform that gives local businesses in Barcelona a digital presence. By providing them with a space to showcase their products and services, we empower them to reach a wider audience and thrive in the digital age.
+
+**Promoting Sustainability**: Sustainability is at the heart of our project. By promoting local businesses, we encourage sustainable practices and reduce the carbon footprint associated with global supply chains. This aligns with our commitment to making positive environmental contributions.
+
+**Enhancing Consumer Engagement**: Through our user-friendly platform, we're enhancing consumer engagement by offering a seamless experience. Shoppers can easily discover and support local businesses, making informed decisions that positively impact their community.
+
+## Technology Stack:
+
+**Front-End: JavaScript and React**
+We've developed an engaging and intuitive front-end using JavaScript and the React library. This modern framework allows us to build dynamic and interactive user interfaces, ensuring a smooth browsing experience for our platform users. The use of React also enables us to efficiently manage the application state and seamlessly update content.
+
+**Back-End: Java**
+The backbone of our platform is built using Java for the back-end. Java's robustness, scalability, and reliability make it an ideal choice for handling the complex business logic and data processing required to connect consumers with local businesses.
+
+**Data Processing: Python and Related Libraries**
+We leverage the power of Python, along with data manipulation libraries like Pandas, to process and analyze data related to local businesses and their products. This enables us to curate meaningful insights that guide our platform's functionality and user experience.
 
 ## Data:
 **Data Source**:
@@ -25,6 +46,11 @@ The processed data is then stored in a JSON format using the json.dump function.
 
 **Additional Features**:
 You also created a test script to print and analyze specific columns and their unique values from the DataFrame. This helps to gain insights into the distribution and uniqueness of values in the data.
+
+**Collaborative Approach**:
+Our project is the result of collaborative efforts, bringing together individuals with diverse skill sets. Designers, developers, data scientists, and sustainability advocates work hand in hand to ensure that our platform aligns with its core objectives.
+
+In summary, our tech-driven initiative, centered in Barcelona, leverages the synergies of JavaScript, React, Java, and Python to empower local businesses, promote sustainability, and provide consumers with a platform that encourages conscious consumption. Through this project, we're contributing to the community, the environment, and the advancement of sustainable practices in the modern age.
 
 ### Team members:
 * Angel Forlano (angel12345leo@gmail.com) (https://www.linkedin.com/in/angel-forlano/)
