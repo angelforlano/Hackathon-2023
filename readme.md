@@ -3,3 +3,4 @@
 
 # Integrantes
 * Angel Forlano (angel12345leo@gmail.com)
+* Shima Naderi (shima.naderii@gmail.com)
