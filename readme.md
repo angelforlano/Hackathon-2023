@@ -28,7 +28,7 @@ The backbone of our platform is built using Java for the back-end. Java's robust
 
 We leverage the power of Python, along with data manipulation libraries like Pandas, to process and analyze data related to local businesses and their products. This enables us to curate meaningful insights that guide our platform's functionality and user experience.
 
-## Data:
+
 **Data Source**:
 The data is stored in a CSV file named "2019_censcomercialbcn_detall.csv." This file contains detailed information about various commercial attributes, such as activity codes, sector names, business names, addresses, and more.
 
@@ -53,7 +53,7 @@ You also created a test script to print and analyze specific columns and their u
 **Collaborative Approach**:
 Our project is the result of collaborative efforts, bringing together individuals with diverse skill sets. Designers, developers, data scientists, and sustainability advocates work hand in hand to ensure that our platform aligns with its core objectives.
 
-In summary, our tech-driven initiative, centered in Barcelona, leverages the synergies of JavaScript, React, Java, and Python to empower local businesses, promote sustainability, and provide consumers with a platform that encourages conscious consumption. Through this project, we're contributing to the community, the environment, and the advancement of sustainable practices in the modern age.
+In summary, our tech-driven initiative, centered in Barcelona, leverages the synergies of **JavaScript, React, Java, and Python** to empower local businesses, promote sustainability, and provide consumers with a platform that encourages conscious consumption. Through this project, we're contributing to the community, the environment, and the advancement of sustainable practices in the modern age.
 
 ### Team members:
 * Angel Forlano (angel12345leo@gmail.com) (https://www.linkedin.com/in/angel-forlano/)
