@@ -50,8 +50,7 @@ with open("data/2019_censcomercialbcn_detall.csv", "r", encoding="utf-8") as fil
             row_data = line.split(",")
             
             #print(row_data)
-            
-            #print(_row_coi_index)
+                        #print(_row_coi_index)
             #print(_row_nom_index)
             
             #print()
