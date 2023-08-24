@@ -16,15 +16,15 @@ The project involves working with data related to commercial activities in Barce
 
 ## Technology Stack:
 
-**Front-End: JavaScript and React**
+### **Front-End: JavaScript and React**
 
 We've developed an engaging and intuitive front-end using JavaScript and the React library. This modern framework allows us to build dynamic and interactive user interfaces, ensuring a smooth browsing experience for our platform users. The use of React also enables us to efficiently manage the application state and seamlessly update content.
 
-**Back-End: Java**
+### **Back-End: Java**
 
 The backbone of our platform is built using Java for the back-end. Java's robustness, scalability, and reliability make it an ideal choice for handling the complex business logic and data processing required to connect consumers with local businesses.
 
-**Data Processing: Python and Related Libraries**
+### **Data Processing: Python and Related Libraries**
 
 We leverage the power of Python, along with data manipulation libraries like Pandas, to process and analyze data related to local businesses and their products. This enables us to curate meaningful insights that guide our platform's functionality and user experience.
 
